@@ -1,13 +1,11 @@
 import requests
 
 from common import deprint
+from config import QTB_APP_SECRET
 from error import Error
 from response import Ret
 
 QTB_HOST = 'https://sso.6-79.cn'
-
-QTB_APP_ID = 'DEFAULT-QTB-APP-ID'
-QTB_APP_SECRET = 'DEFAULT-QTB-APP-SECRET'
 
 
 def get_qtb_user_token(code):

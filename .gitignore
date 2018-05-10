@@ -53,3 +53,4 @@ fabric.properties
 .gitignore
 .idea/
 __pycache__/
+config.py
