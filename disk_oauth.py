@@ -22,7 +22,7 @@ def update_info():
     ret = update_user_info(token)
     if ret.error is not Error.OK:
         return error_response(ret)
-    return response(ret.body)
+    return response(body=ret.body)
 
 
 if __name__ == '__main__':
